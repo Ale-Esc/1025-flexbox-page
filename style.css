@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #697077ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #4c4e61ff;
+}
+
+/* mobile design */
+/* header section */
+.product {
+    text-align: center;
+    margin-block: clamp(0rem,2cqi,2rem);
+    margin-inline: 2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product__heading {
+    font-size: clamp(1.6rem,6cqi,2.45rem);
+    line-height: clamp(2rem,5cqi,3rem);
+}
+
+.product__title {
+    font-weight: 200;
+    margin-top: 4rem;
+}
+
+.product__text {
+    margin-block: 1rem;
+    font-size: clamp(.75rem,4cqi,1.1rem);
+    font-weight: 500;
+    max-width: 55ch;
+}
+
+/* cards section */
+.tools__main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-inline: 2rem;
+    margin-block: 4rem;
+    gap: 2rem;
+}
+
+.tools__container-b {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tool {
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 16px 20px #4c4e6166;
+    border-radius: 6px;
+    max-width: 25rem;
+}
+
+.tool__name {
+    font-size: 1.4rem;
+}
+
+.tool__icon {
+    align-self: flex-end;
+    margin-block: 1.5rem;
+}
+
+.tool-a {
+    border-top: 6px solid #45d3d3ff;
+}
+
+.tool-b {
+    border-top: 6px solid #ea5353ff;
+}
+
+.tool-c {
+    border-top: 6px solid #fcaf4aff;
+}
+
+.tool-d {
+    border-top: 6px solid #549ef2ff;
+}
+
+/* Responsive 900px */
+
+@media (width > 1200px){
+    .tools__main-container{
+        flex-direction: row;
+    }
+}
