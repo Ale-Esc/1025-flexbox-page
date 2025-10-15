@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #69707711;
 }
 
 p {
@@ -28,7 +29,7 @@ h6 {
 /* header section */
 .product {
     text-align: center;
-    margin-block: clamp(0rem,2cqi,2rem);
+    margin-block: clamp(0rem,2cqi,2.5rem);
     margin-inline: 2rem;
     display: flex;
     flex-flow: column;
@@ -49,7 +50,7 @@ h6 {
 
 .product__text {
     margin-block: 1rem;
-    font-size: clamp(.75rem,4cqi,1.1rem);
+    font-size: clamp(.75rem,4cqi,1.05rem);
     font-weight: 500;
     max-width: 55ch;
 }
@@ -74,13 +75,15 @@ h6 {
     padding: 1.5rem 2rem;
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 16px 20px #4c4e6166;
+    box-shadow: 1px 16px 20px #4c4e6122;
     border-radius: 6px;
-    max-width: 25rem;
+    max-width: 22.5rem;
+    background-color: #fff;
+    font-size: .925rem;
 }
 
 .tool__name {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
 }
 
 .tool__icon {
